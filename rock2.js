@@ -116,7 +116,7 @@ function autoPlay(){
     intervalId = setInterval(()=> {  
         play(randomize());
         document.querySelector('.autobutton').innerText='Stop';
-    }, 2000);
+    }, 1000);
     isAuto = true;
 }else{
     clearInterval(intervalId);
