@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title{
+    color: antiquewhite;
+}
+
+
+button{
+    color: white;
+    background-color: black;
+    border-radius: 100%;
+    border-color: aliceblue;
+    text-align: center;
+    padding: 30px;
+    cursor: pointer;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.showscore{
+    font-family: arial;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 30px;
+}
+img{
+    height: 70px;
+    width: 70px;
+}
+.resetbutton{
+    border-radius: 10%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.resulttext{
+    font-size: 40px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1 class="title">Rock Paper Scissors</h1>
+    <div class="buttons">
+    <button onclick="
+        play('Rock');
+        console.log(document.querySelector('button').innerHTML);
+    "><img class="rockimg" src="imgs/rock.png"></button>
+
+    <button onclick="
+        play('Paper')
+    "><img src="imgs/paper.png"></button>
+
+     <button onclick="
+        play('Scissors')
+     "><img src="imgs/scissors.png"></button>
+
+     <p class="resulttext" style="color: white;font-family: arial;">Result</p>
+
+        <p class="resulttext"  style="color: white;font-family: arial"> </p>
+
+    <p class="showscore">Score will be shown here</p>
+
+     <button onclick="resetScore()" class="resetbutton">Reset Score</button>
+    </div>
+     
+
+
+     <script src="script.js"></script>
+</body>
+</html>
