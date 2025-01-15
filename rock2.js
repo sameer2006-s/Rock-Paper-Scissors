@@ -106,16 +106,18 @@ function displayScore() {
     document.querySelector('.resulttext').innerText = result
 }
 
-console.log('helloooo');
 
     let intervalId;
     let isAuto = false;
+
 function autoPlay(){
    if(!isAuto){
     console.log('auto func ')
-    intervalId = setInterval(()=> {  
+    document.querySelector('.autobutton').innerText='Stop';
+    intervalId = setInterval(()=> { 
+         
         play(randomize());
-        document.querySelector('.autobutton').innerText='Stop';
+        
     }, 1000);
     isAuto = true;
 }else{
